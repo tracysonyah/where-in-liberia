@@ -5,10 +5,10 @@
 }
 
 .grid-container {
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-columns: repeat(autofit, minmax(300px, 1fr)); */
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 body {
@@ -95,12 +95,13 @@ img {
 }
 
 .flags2 {
-    padding-top: 0rem;
-    margin-top: 10px;
+    padding-top: 35px;
+    border-radius: 8px;
 }
 
 .flags img {
     width: 60vh;
+    border-radius: 8px;
 }
 
 /* @media (max-width: 767px) {
