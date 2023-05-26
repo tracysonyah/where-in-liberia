@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(autofit, minmax(300px, 1fr)); */
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: rgb(237, 232, 232);
+    
+}
+
+img {
+    width: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 2px 3px 2px grey;
+    padding: 20px;
+    background-color: white;
+}
+
+.moon {
+    display: flex;
+    align-items: center;
+    
+}
+
+.moon img {
+    margin-bottom: 0.2rem;
+    
+}
+
+#search {
+    margin-bottom: -0.4rem;
+    border: none;
+    background-color: white;
+}
+
+.search-field input {
+    border: none;
+    padding: 5px;
+    
+}
+
+.counties select {
+    border: none;
+    background-color: white;
+}
+
+
+
+.search-field {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.search-field div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 2px 3px 2px grey;
+
+
+}
+
+
+
+.county {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+.county div {
+    margin: 5px;
+    width: 60vh;
+}
+
+.flags div {
+    background-color: white;
+    height: 30vh;
+    margin-top: 1px;
+}
+
+.flags2 {
+    padding-top: 0rem;
+    margin-top: 10px;
+}
+
+.flags img {
+    width: 60vh;
+}
+
+/* @media (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 768)and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024) {
+
+} */
